@@ -1,0 +1,175 @@
+#detailHead {
+  display: flex;
+  align-items: center;
+  margin: 2% 0 0 1%;
+}
+
+
+.aucun{
+  color: rgb(133, 133, 133);
+}
+
+#grandNotif {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#detail {
+  margin-right: 20px;
+}
+
+.elementNotification {
+  padding: 20px 0 5px 10px;
+  box-shadow: rgb(39, 85, 211) 2px 0 8px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-bottom: 3%;
+}
+
+.elementNotificationVu {
+  padding: 20px 0 5px 10px;
+  box-shadow: rgb(65, 65, 65) 1px 0 1px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-bottom: 3%;
+  background: rgb(233, 233, 233);
+}
+
+#lien .elementNotificationVu p {
+  color: rgb(49, 48, 48);
+}
+
+#lien {
+  text-decoration: none;
+}
+
+.page {
+  margin: 0 20% 0 20%;
+}
+
+.imgEtudiant {
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.imgBordereau {
+  cursor: pointer;
+}
+
+#formEtudiant {
+  border-top: 4px solid rgb(58, 104, 58);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .25);
+}
+
+.form-label {
+  font-weight: bold;
+  color: #2c2929;
+
+}
+
+.card-details {
+  background: rgb(248, 248, 248);
+}
+
+.products {
+  padding: 0 6% 0 6%;
+}
+
+/* The Modal (background) */
+.modalImage {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modalImage-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+.captionImage {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modalImage-content,
+.captionImage {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+.closeImage {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.closeImage:hover,
+.closeImage:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .elementNotification,
+  .elementNotificationVu {
+    margin-bottom: 6%;
+  }
+
+  .page {
+    margin: 0 5% 0 5%;
+  }
+
+  #detail {
+    display: none;
+  }
+}

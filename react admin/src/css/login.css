@@ -1,0 +1,116 @@
+#section {
+    background-image: url("../assets/bg.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    /* animation: mihetsika 5s linear infinite; */
+}
+
+/* @keyframes mihetsika {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+} */
+
+.login-box {
+    width: 400%; 
+    max-width: 450px; 
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.txt{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 310px;
+    margin: 35px 0;
+    border-bottom: 2px solid #fff;
+}
+.input-box label {
+    position: absolute;
+    top: 50%;   
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+/**************************/
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+/**************************/
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+.login-button {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+}
+
+.forgot a{
+    float: right;
+    margin-top: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 360px) {
+    .login-box{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border: 0;
+    }
+    .input-box{
+        width: 290px;
+    }
+}
+
+.sa{
+    margin-left: 105px;
+    width: 80px;
+    height: 80px;
+}

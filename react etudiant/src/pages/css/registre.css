@@ -1,0 +1,409 @@
+.All {
+    background: #ecf7ff;
+}
+
+.Container {
+    /* margin-right: 50px;
+    background: white; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(194, 194, 194, 0.5);
+    background: white;
+}
+
+.container {
+    padding: 15px 40px 25px 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.input-box {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.input-box::placeholder {
+    font-size: 13px;
+}
+
+.input-box:focus {
+    transition: border-color 2s ease;
+    border-bottom: 1.5px solid blue;
+}
+
+.register {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95vh;
+    /* align-items: center; */
+}
+
+/* .formulaire {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.formulaire {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    width: 50%;
+}
+
+.test h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.boutCont {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkHome,
+.precedant {
+    position: relative;
+    background: rgb(211, 211, 211);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.continue {
+    background-color: #007bff;
+    width: 60%;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    padding: 5px;
+}
+
+.continue1 {
+    margin-top: 20px;
+    background-color: #007bff;
+    width: 60%;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    padding: 5px;
+}
+
+
+.boutCont {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.suivant {
+    position: relative;
+    background-color: #007bff;
+    width: 110px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+.inscri {
+    background-color: #007bff;
+    width: 110px;
+    margin-left: 190px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+.precedant {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+.select {
+    width: 500px;
+}
+
+.file-input {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .file-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .file-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+  
+  .file-input:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+
+/* input[type="file"] {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    line-height: inherit;
+}
+
+input[type="file"]:hover {
+    background-color: #eaeaea;
+}
+
+.file {
+    border: 1px dashed rgb(128, 128, 128);
+} */
+
+.file-error {
+    background-color: #ac6161;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #a74747;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    line-height: inherit;
+}
+
+select {
+    /* appearance: none; enlève l'apparence par défaut du select  */
+    padding: 10px;
+    /* padding pour l'espace autour du texte */
+    border: 1px solid #ccc;
+    /* bordure */
+    border-radius: 5px;
+    /* coins arrondis */
+    background-color: #f8f8f8;
+    /* couleur de fond */
+    color: #333;
+    /* couleur du texte */
+    font-size: 16px;
+    /* taille de la police */
+}
+
+select:focus {
+    outline: none;
+    /* enlève le contour lorsqu'il est sélectionné */
+    border-color: #66afe9;
+    /* changement de couleur de la bordure lorsqu'il est sélectionné */
+}
+
+.select {
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    font-weight: bold;
+}
+
+.info {
+    position: relative;
+    height: 110px;
+    width: 100%;
+}
+
+.file {
+    position: relative;
+    height: 110px;
+    width: 95%;
+}
+
+.info.empty input {
+    outline: none;
+    border-bottom: 1.5px solid rgba(219, 3, 3, 0.918);
+    transition: border-color 2s ease;
+}
+
+.info.empty input::placeholder {
+    font-size: 13px;
+}
+
+.error-message {
+    color: rgba(168, 20, 20, 0.918);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.input-error::placeholder {
+    color: rgba(168, 20, 20, 0.918);
+}
+
+.exclamation {
+    font-size: 11px;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    background: rgba(168, 20, 20, 0.918);
+    border-radius: 50%;
+}
+
+/*////////////////////////////////////*/
+.logo {
+    margin-left: 20px;
+}
+
+.inscription {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.text {
+    display: flex;
+    padding-right: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    position: fixed;
+    background: linear-gradient(to top, rgb(233, 243, 236), rgb(194, 241, 210));
+    backdrop-filter: blur(20px);
+}
+
+.section3 {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border: 1px rgb(114, 158, 126) solid;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.ressource {
+    padding-bottom: 15px;
+    border: 1px rgb(114, 158, 126) solid;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .register {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .registerinfo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .formulaire {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

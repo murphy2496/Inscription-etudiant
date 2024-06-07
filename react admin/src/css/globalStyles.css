@@ -1,0 +1,15 @@
+body{
+    background-color: #f7f4f4 !important;
+    /* background-color: #f8f9fa !important; */
+}
+header {
+    background-color: rgb(52, 146, 52);
+    font-family: 'Urbanist', sans-serif;
+    /* position: sticky;
+    top: 0;
+    z-index: 99; */
+}
+
+.titre {
+    margin: 1.5% 0 2% 1%;
+}

@@ -1,0 +1,343 @@
+h1 {
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.inscription , .home{
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.text {
+    display: flex;
+    padding-right: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    position: sticky;
+    background: linear-gradient(to top, rgb(233, 243, 236), rgb(194, 241, 210));
+    backdrop-filter: blur(20px);
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 95vh;
+}
+
+.section3 {
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border: 1px rgb(114, 158, 126) solid;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.ressource {
+    padding-bottom: 15px;
+    border: 1px rgb(114, 158, 126) solid;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.about {
+    text-align: center;
+    width: 50%;
+}
+
+.about h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.body {
+    background: linear-gradient(to bottom, rgb(234, 243, 237), rgb(198, 228, 211), rgb(187, 221, 201), rgb(185, 233, 201), rgb(187, 221, 201), rgb(217, 235, 225), rgb(255, 255, 255));
+    backdrop-filter: blur(20px);
+}
+
+.ENI {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.ecole {
+    width: 80%;
+}
+
+.display {
+    padding-left: 12rem;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+/*********************************************************************/
+.section {
+    margin-top: 30px;
+    width: 100%;
+}
+.section h2 {
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.contenant {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.colonne {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.collone {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.info {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.colonne1 {
+    width: 45%;
+    order: 2;
+}
+.information {
+    width: 45%;
+    order: 1;
+}
+.img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.partie2 {
+    margin-top: 30px;
+}
+.information1 {
+    width: 45%;
+    order: 1;
+}
+.information2 {
+    width: 45%;
+    order:2;
+}
+.parcours {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 900px){
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 400px;
+    }
+    .ecole {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .display {
+        padding-left: 0;
+        font-weight: 600;
+        font-size: 45px;
+    }
+    .section h2 {
+        font-weight: 400;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .colonne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .collone {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .colonne1 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        order: 2;
+    }
+    .information {
+        width: 80%;
+        order: 1;
+        text-align: center;
+    }
+    .partie2 {
+        margin-top: 30px;
+    }
+    .information1 {
+        margin-top: 30px;
+        width: 80%;
+        order: 1;
+        text-align: center;
+    }
+    .information2 {
+        margin-top: 30px;
+        width: 80%;
+        order:2;
+        text-align: center;
+    }
+    .parcours {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.file-input {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .file-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .file-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+  
+  .file-input:hover {
+    background-color: #45a049;
+  }
+  
+/* ************************************************************ */
+
+ .elementor-widget-image{
+    text-align:center;
+}
+ .elementor-widget-image a{
+    display:inline-block
+}
+ .elementor-widget-image a img[src$=".svg"]{
+    width:48px
+}
+ .elementor-widget-image img{
+    vertical-align:middle;
+    display:inline-block
+}
+
+/* **************************************************************** */
+
+.hero {
+    background-image: url(../../../public/vector2.jpg);
+    text-align: center;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    position: relative;
+    /* border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; */
+}
+.hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 189, 156, 0.24);
+    /* border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.bout {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.bout:hover {
+    background-color: #ff6600;
+}
