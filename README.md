@@ -1,1 +1,3 @@
-# Inscription-etudiant
+FRONT-END : REACTJS
+BACK-END : EXPRESSJS
+ORM : SEQUELIZE
